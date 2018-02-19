@@ -80,7 +80,6 @@ use Leewillis77\SettingStore\Repositories\SettingStoreRepository;
 public function myControllerAction(SettingStoreRepository $settingStore)
 {
     $value = $settingStore->get('foo');
-
 }
 ```
 
