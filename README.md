@@ -1,4 +1,4 @@
-# CachedEmbed
+# Setting Store
 Laravel 5.5+ package to provide a simple model / facade for key/value storage.
 
 ## Installation
@@ -68,7 +68,7 @@ You can access the SettingStore using the `SettingStore` facade, e.g.
 
 ```php
 $value = SettingStore::get('foo');
-``` 
+```
 
 Alternatively, you can inject the repository into your controllers, e.g.
 
@@ -80,11 +80,11 @@ use Leewillis77\SettingStore\Repositories\SettingStoreRepository;
 public function myControllerAction(SettingStoreRepository $settingStore)
 {
     $value = $settingStore->get('foo');
-    
+
 }
 ```
 
-You can also retrieve the repository from the service container. 
+You can also retrieve the repository from the service container.
 
 ```php
 <?php
