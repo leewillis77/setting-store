@@ -84,18 +84,16 @@ class SettingStoreRepository
      *
      * @param  string $key  The key to forget.
      *
-     * @return string       The previous value of the setting, or empty string
-     *                      if not found.
+     * @return bool
      */
-    public function forget(string $key) : string
+    public function forget(string $key) : bool
     {
         $result = Setting::where('key', $key)->first();
         if (! is_null($result)) {
             $value = $result->value;
             $result->delete();
-            return $value;
         }
-        return '';
+        return true;
     }
 
     /**
