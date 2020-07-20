@@ -1,7 +1,12 @@
 # Setting Store
 Laravel 5.5+ package to provide a simple model / facade for key/value storage.
 
-[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://offset.earth/ademtisoftware?gift-trees)
+## Treeware
+If you use this package in production, we ask that you [**buy the world some trees**](https://ecologi.com/ademtisoftware?gift-trees) to thank us for our work. By contributing to our forest you’ll be creating employment for local families and restoring wildlife habitats.
+
+<a href="https://ecologi.com/ademtisoftware?gift-trees" rel="nofollow noopener noreferrer" target="_blank">
+<img src="https://toolkit.ecologi.com/badges/cpw/5e3abd8bd52a6300171beadb?black=true&landscape=true" alt="We offset our carbon footprint via Ecologi" width="200">
+</a>
 
 ## Installation
 Add the package to your Laravel project using composer:
