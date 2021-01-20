@@ -1,6 +1,6 @@
 {
     "name": "leewillis77/setting-store",
-    "description": "Laravel 5.5+ package to provide a simple model / facade for key/value storage.",
+    "description": "Laravel 6+ package to provide a simple model / facade for key/value storage.",
     "keywords": [
         "Laravel",
 	    "settings"
@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": "^7.0",
-        "laravel/framework": "~5.5.0|~5.6.0|~6.0|~7.0"
+        "laravel/framework": "~6.0|~7.0|~8.0"
     },
     "autoload": {
         "psr-4": {
