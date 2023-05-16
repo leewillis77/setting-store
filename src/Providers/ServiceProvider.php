@@ -24,6 +24,10 @@ class ServiceProvider extends FrameworkServiceProvider
     public function register()
     {
         $this->app->singleton('setting_store', function ($app) {
+            if (env('USE_CACHED_SETTINGSTORE', false)) {
+                return new \Leewillis77\SettingStore\Repositories\CachedSettingStoreRepository();
+            }
+
             return new \Leewillis77\SettingStore\Repositories\SettingStoreRepository();
         });
     }
